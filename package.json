@@ -1,0 +1,24 @@
+{
+  "name": "gsap-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css": "node-sass main.scss -o dist",
+    "css:watch": "npm run css && node-sass main.scss -wo dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kem247/gsap-landing-page-.git"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kem247/gsap-landing-page-/issues"
+  },
+  "homepage": "https://github.com/kem247/gsap-landing-page-#readme"
+}
